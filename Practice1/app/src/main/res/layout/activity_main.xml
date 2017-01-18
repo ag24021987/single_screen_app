@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+
+tools:context="com.example.agupt23.practice1.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/title"
+        android:gravity="center_horizontal"
+        android:textColor="@color/purple"
+        android:background="@color/skyBlue"
+        android:textStyle="bold"
+        android:textSize="@dimen/heading_text_size"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        android:src="@drawable/shacks"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        android:src="@drawable/shacks3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/description_text_size"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/description" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textSize="@dimen/location_text_size"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:text="@string/location" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="@dimen/telephone_text_size"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:text="@string/telephone"
+        android:autoLink="phone"/>
+
+</LinearLayout>

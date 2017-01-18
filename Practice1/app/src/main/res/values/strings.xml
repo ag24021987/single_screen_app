@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Jon\'s Shacks Goa</string>
+    <string name="title">Jon\'s Shacks Goa</string>
+    <string name="description">Accommodation/Food/Drinks</string>
+    <string name="location">Location: Baga Beach, Goa</string>
+    <string name="telephone">Call +91 9988990011 for reservations</string>
+</resources>
